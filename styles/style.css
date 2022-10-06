@@ -11,5 +11,12 @@ body {
     width: 40vw;
     background: url("../images/alevision-co-eDMQgYbKhiU-unsplash.jpg");
     background-size: cover;
+    flex: 1;
 }
 
+.content {
+    height: 100vh;
+    width: 60vw;
+    padding: 0 15px;
+    flex: 2;
+}
