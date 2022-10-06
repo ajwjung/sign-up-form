@@ -20,3 +20,11 @@ body {
     padding: 0 15px;
     flex: 2;
 }
+
+.bold {
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+}
