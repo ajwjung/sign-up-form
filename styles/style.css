@@ -2,6 +2,10 @@ body {
     margin: 0 auto;
 }
 
+label {
+    text-transform: uppercase;
+}
+
 .container {
     display: flex;
 }
