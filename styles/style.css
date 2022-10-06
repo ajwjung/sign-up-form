@@ -26,6 +26,18 @@ input {
 input {
     width: 250px;
     padding: 4px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input + span::after {
+    content: "* Passwords do not match";
+    top: -20px;
+    color: rgb(218, 48, 18)
+}
+
+.error {
+    border: 1px solid rgb(218, 48, 18);
 }
 
 .info {
