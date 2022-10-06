@@ -137,11 +137,15 @@ input:focus {
 
 .content {
     background: var(--primary-color);
-    justify-content: center;
+    gap: 30px;
     height: 100vh;
     width: 60vw;
     padding: 50px;
     flex: 2;
+}
+
+.intro-text {
+    margin-top: 10vh;
 }
 
 .info {
