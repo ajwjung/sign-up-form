@@ -20,6 +20,15 @@ form {
     width: 600px;
 }
 
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--tertiary-color);
+}
+
 label,
 input,
 .container,
