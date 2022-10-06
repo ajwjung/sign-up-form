@@ -2,12 +2,29 @@ body {
     margin: 0 auto;
 }
 
+form {
+    height: 300px;
+    width: 600px;
+}
+
 label {
     text-transform: uppercase;
 }
 
-.container {
+label,
+input,
+.container,
+.info {
     display: flex;
+}
+
+label,
+input {
+    flex-direction: column;
+}
+
+.info {
+    gap: 10%;
 }
 
 .sidebar {
