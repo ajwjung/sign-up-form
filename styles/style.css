@@ -10,7 +10,8 @@ form {
 label,
 input,
 .container,
-.info {
+.info,
+.logo-container {
     display: flex;
 }
 
@@ -19,7 +20,8 @@ input {
     flex-direction: column;
 }
 
-label {
+label,
+#logo-text {
     text-transform: uppercase;
 }
 
@@ -70,6 +72,23 @@ input:focus {
     background: url("../images/alevision-co-eDMQgYbKhiU-unsplash.jpg");
     background-size: cover;
     flex: 1;
+    position: relative;
+}
+
+.logo-container {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 20%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 200px;
+    z-index: 3;
+}
+
+#logo {
+    width: 100px;
 }
 
 .content {
