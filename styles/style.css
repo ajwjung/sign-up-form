@@ -7,10 +7,6 @@ form {
     width: 600px;
 }
 
-label {
-    text-transform: uppercase;
-}
-
 label,
 input,
 .container,
@@ -23,17 +19,15 @@ input {
     flex-direction: column;
 }
 
+label {
+    text-transform: uppercase;
+}
+
 input {
     width: 250px;
     padding: 4px;
     border: 1px solid #E5E7EB;
     border-radius: 5px;
-}
-
-input + span::after {
-    content: "* Passwords do not match";
-    top: -20px;
-    color: rgb(218, 48, 18)
 }
 
 button {
@@ -51,20 +45,25 @@ button:hover {
     background: rgb(226, 177, 136);
 }
 
+/* Default password style */
+input + span::after {
+    content: "* Passwords do not match";
+    top: -20px;
+    color: rgb(218, 48, 18)
+}
+
 .error {
     border: 1px solid rgb(218, 48, 18);
 }
 
+/* Selected input box */
 input:focus {
     border: 1px solid rgb(29, 76, 216);
     box-shadow: 2px 2px 3px rgba(182, 182, 182, 0.7);
     outline: none;
 }
 
-.info {
-    gap: 10%;
-}
-
+/* Main containers */
 .sidebar {
     height: 100vh;
     width: 40vw;
@@ -78,6 +77,10 @@ input:focus {
     width: 60vw;
     padding: 0 15px;
     flex: 2;
+}
+
+.info {
+    gap: 10%;
 }
 
 .bold {
