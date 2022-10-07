@@ -110,6 +110,10 @@ input:focus {
     outline: none;
 }
 
+input:hover {
+    background: rgba(226, 177, 136, 0.5);
+}
+
 /* Main containers */
 .sidebar {
     justify-content: center;
