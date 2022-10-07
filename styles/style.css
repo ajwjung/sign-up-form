@@ -39,8 +39,14 @@ a:hover {
 .logo-container,
 .content,
 .form-container,
+.info,
 .row {
     display: flex;
+}
+
+.content,
+.info {
+    flex-direction: column;
 }
 
 label,
@@ -147,7 +153,6 @@ input:hover {
 
 /* Right side content */
 .content {
-    flex-direction: column;
     background: var(--primary-color);
     gap: 30px;
     height: 100vh;
@@ -166,6 +171,10 @@ input:hover {
     padding: 30px 50px;
     background: var(--transparent-clr);
     box-shadow: 1px 1px 4px 1px var(--shadow-color);
+}
+
+.info {
+    gap: 10px;
 }
 
 .row {
