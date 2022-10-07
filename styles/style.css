@@ -40,6 +40,7 @@ a:hover {
 label,
 input,
 .container,
+.sidebar,
 .content,
 .info,
 .logo-container {
@@ -111,6 +112,8 @@ input:focus {
 
 /* Main containers */
 .sidebar {
+    justify-content: center;
+    align-items: flex-end;
     height: 100vh;
     width: 40vw;
     background: url("../images/alevision-co-eDMQgYbKhiU-unsplash.jpg");
@@ -133,6 +136,18 @@ input:focus {
 
 #logo {
     width: 100px;
+}
+
+.credits-container {
+    width: 100%;
+    background: rgb(187, 127, 74, 0.7);
+}
+
+.credits-container * {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    text-align: center;
+    line-height: var(--big-font);
 }
 
 .content {
