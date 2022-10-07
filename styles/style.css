@@ -39,10 +39,10 @@ a:hover {
 
 label,
 input,
+.row,
 .container,
 .sidebar,
 .content,
-.info,
 .logo-container {
     display: flex;
 }
@@ -94,7 +94,6 @@ button:hover {
 /* Default password style */
 input + span::after {
     content: "* Passwords do not match";
-    top: -20px;
     color: var(--error-color);
     font-size: var(--error-font-size);
 }
@@ -112,6 +111,10 @@ input:focus {
 
 input:hover {
     background: rgba(226, 177, 136, 0.5);
+}
+
+.row {
+    column-gap: 10%;
 }
 
 /* Main containers */
@@ -165,10 +168,6 @@ input:hover {
 
 .intro-text {
     margin-top: 10vh;
-}
-
-.info {
-    gap: 10%;
 }
 
 .bold {
