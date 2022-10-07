@@ -42,10 +42,6 @@ a:hover {
     display: flex;
 }
 
-.content {
-    flex-direction: column;
-}
-
 label,
 #logo-text {
     text-transform: uppercase;
@@ -108,11 +104,7 @@ input:hover {
     background: rgba(226, 177, 136, 0.5);
 }
 
-.row {
-    column-gap: 10%;
-}
-
-/* Main containers */
+/* Left sidebar content */
 .sidebar {
     justify-content: center;
     align-items: flex-end;
@@ -152,7 +144,9 @@ input:hover {
     line-height: var(--big-font);
 }
 
+/* Right side content */
 .content {
+    flex-direction: column;
     background: var(--primary-color);
     gap: 30px;
     height: 100vh;
@@ -171,6 +165,10 @@ input:hover {
     padding: 30px 50px;
     background: var(--transparent-clr);
     box-shadow: 1px 1px 4px 1px var(--shadow-color);
+}
+
+.row {
+    column-gap: 10%;
 }
 
 .bold {
