@@ -37,7 +37,6 @@ a:hover {
     color: var(--tertiary-color);
 }
 
-label,
 input,
 .row,
 .container,
@@ -47,7 +46,6 @@ input,
     display: flex;
 }
 
-label,
 input,
 .content {
     flex-direction: column;
@@ -61,6 +59,7 @@ label,
 
 label {
     font-size: var(--small-font);
+    display: block;
 }
 
 #logo-text {
@@ -96,6 +95,7 @@ input + span::after {
     content: "* Passwords do not match";
     color: var(--error-color);
     font-size: var(--error-font-size);
+    display: block;
 }
 
 .error {
