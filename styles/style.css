@@ -24,11 +24,6 @@ body {
     font-size: var(--big-font);
 }
 
-form {
-    height: 300px;
-    width: 600px;
-}
-
 a {
     color: var(--secondary-color);
     text-decoration: none;
