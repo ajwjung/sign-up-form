@@ -5,6 +5,7 @@
     --error-color: rgb(218, 48, 18);
     --shadow-color: rgba(182, 182, 182, 0.7);
     --selected-color: rgb(29, 76, 216);
+    --transparent-clr: rgba(255, 246, 236, 0.7);
     --primary-font: 'Sen', sans-serif;
     --secondary-font: 'Mukta Malar', sans-serif;
     --logo-font-size: 1.5rem;
@@ -37,11 +38,12 @@ a:hover {
     color: var(--tertiary-color);
 }
 
-.row,
 .container,
 .sidebar,
+.logo-container,
 .content,
-.logo-container {
+.form-container,
+.row {
     display: flex;
 }
 
@@ -160,12 +162,20 @@ input:hover {
     gap: 30px;
     height: 100vh;
     width: 60vw;
-    padding: 50px;
     flex: 2;
 }
 
 .intro-text {
-    margin-top: 10vh;
+    padding: 20px 50px;
+    margin-top: 8%;
+}
+
+.form-container {
+    height: 50%;
+    width: 100%;
+    padding: 30px 50px;
+    background: var(--transparent-clr);
+    box-shadow: 1px 1px 4px 1px var(--shadow-color);
 }
 
 .bold {
