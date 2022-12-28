@@ -1,5 +1,7 @@
 # Sign-up Form
 
+* [Live Demo](https://ajwjung.github.io/sign-up-form/) :star2:
+
 ## Objective
 
 To demonstrate understanding of the basics of forms by creating a mock sign-up form using HTML and CSS. Full details can be found on [The Odin Project's project page](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
